@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.edu.fanor.archmath" android:versionCode="1" android:versionName="ArchMath" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Holo.Light" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Barramento"
+            android:label="@string/menu1"
+            android:icon="@mipmap/icon_launcher"
+            android:theme="@android:style/Theme.Holo.Light"
+            android:screenOrientation="sensor"/>
+            <activity
+                android:name=".TotalEnderecosUtilizaveis"
+                android:label="@string/submenu1_1"
+                android:icon="@mipmap/icon_launcher"
+                android:theme="@android:style/Theme.Holo.Light"
+                android:screenOrientation="sensor"/>
+            <activity
+                android:name=".TaxaTransferenciaBarramentoDados"
+                android:label="@string/submenu1_2"
+                android:icon="@mipmap/icon_launcher"
+                android:theme="@android:style/Theme.Holo.Light"
+                android:screenOrientation="sensor"/>
+            <activity
+                android:name=".LarguraBarramentoControle"
+                android:label="@string/submenu1_3"
+                android:icon="@mipmap/icon_launcher"
+                android:theme="@android:style/Theme.Holo.Light"
+                android:screenOrientation="sensor"/>
+
+        <activity
+            android:name=".ConversaoNumerica"
+            android:icon="@mipmap/icon_launcher"
+            android:label="@string/menu2"
+            android:theme="@android:style/Theme.Holo.Light"
+            android:screenOrientation="sensor"/>
+
+            <activity
+                android:name=".ConversaoBinarioDecimal"
+                android:icon="@mipmap/icon_launcher"
+                android:label="@string/submenu2_1"
+                android:theme="@android:style/Theme.Holo.Light"
+                android:screenOrientation="sensor"/>
+
+            <activity
+                android:name=".ConversaoDecimalBinario"
+                android:icon="@mipmap/icon_launcher"
+                android:label="@string/submenu2_2"
+                android:theme="@android:style/Theme.Holo.Light"
+                android:screenOrientation="sensor"/>
+
+        <activity
+            android:name=".MemoriaCpu"
+            android:label="@string/menu3"
+            android:icon="@mipmap/icon_launcher"
+            android:theme="@android:style/Theme.Holo.Light"
+            android:screenOrientation="sensor"/>
+
+            <activity
+                android:name=".CapacidadeMemoria"
+                android:icon="@mipmap/icon_launcher"
+                android:label="@string/submenu3_1"
+                android:theme="@android:style/Theme.Holo.Light"
+                android:screenOrientation="sensor"/>
+
+            <activity
+                android:name=".TamanhoCelula"
+                android:icon="@mipmap/icon_launcher"
+                android:label="@string/submenu3_2"
+                android:theme="@android:style/Theme.Holo.Light"
+                android:screenOrientation="sensor"/>
+
+
+    </application>
+
+</manifest>

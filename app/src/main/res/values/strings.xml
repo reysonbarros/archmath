@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ArchMath</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu1">Barramentos</string>
+        <string name="submenu1_1">Total de Endereços Utilizáveis</string>
+        <string name="submenu1_2">Taxa de Transferênia do Barramento de Dados</string>
+        <string name="submenu1_3">Largura do Barramento de Controle</string>
+
+    <string name="menu2">Conversão Numérica</string>
+        <string name="submenu2_1">Binário para Decimal</string>
+        <string name="submenu2_2">Decimal para Binário</string>
+
+
+    <string name="menu3">Memórias e CPU</string>
+        <string name="submenu3_1">Capacidade da Memória</string>
+        <string name="submenu3_2">Tamanho da Célula</string>
+
+
+</resources>
