@@ -36,7 +36,7 @@ public class Barramento extends Activity {
 
         ActionBar actionBar = getActionBar();
         actionBar.setTitle("Barramentos");
-        actionBar.setSubtitle("Menu de Operações");
+        actionBar.setSubtitle("Menu de Opções");
 
         btntotalenderecos.setOnClickListener(new View.OnClickListener() {
 
